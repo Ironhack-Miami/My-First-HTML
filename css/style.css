@@ -2,6 +2,7 @@
     font-family: 'Oswald', sans-serif;
 }
 
+/* heading  */
 h1 {
     color:darkkhaki;
     font-family: 'Abril Fatface', cursive;
@@ -38,7 +39,18 @@ h6 {
 p {
     color: aqua;
     font-size: 1em;
+    line-height: 32px;
 }
+
+.headtest {
+    color: black;
+}
+
+.icon-red {
+    color: red;
+}
+
+
 
 
 
