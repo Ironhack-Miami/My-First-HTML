@@ -39,7 +39,15 @@ h6 {
 p {
     color: aqua;
     font-size: 1em;
-    line-height: 32px;
+    line-height: 0.5em;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+div {
+    border: 1px red dotted;
 }
 
 .headtest {
@@ -50,9 +58,33 @@ p {
     color: red;
 }
 
+.imgRounded {
+    border-radius: 50%;
+    background-image: url("../images/andrey-zvyagintsev-9faXT5hxD5I-unsplash.jpg"); 
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0;
+     /* margin-left: auto;
+     margin-right: auto;
+     width: 30%; */
 
+}
 
+button {
 
+}
+
+a {
+    padding: 10px 50px;
+    /* padding-top: 50px: */
+    margin: 30px;
+    border: 30px;
+
+}
 
 .row {
 
@@ -61,17 +93,16 @@ p {
 .col {
     float: left;
     padding: 15px;
-    border: 1px solid red;
-    width:100%;
+    border: 1px solid green;
+    /* width:30%; */
 }
 
-
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
 .col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
+/* .col-2 {width: 16.66%;} */
+.col-2 {width: 14%;}
 .col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
+/* .col-4 {width: 33.33%;} */
+.col-4 {width: 30%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
@@ -80,4 +111,18 @@ p {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
