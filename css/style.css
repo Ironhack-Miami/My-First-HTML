@@ -3,6 +3,8 @@
 }
 
 /* heading  */
+
+
 h1 {
     color:darkkhaki;
     font-family: 'Abril Fatface', cursive;
@@ -32,8 +34,7 @@ h5 {
 h6 {
     color: wheat;
     font-size: 1.5em;
-    border: 1px red solid;
-    margin: 0;
+    margin: 20px 0;
 }
 
 p {
@@ -43,9 +44,8 @@ p {
 }
 
 header {
-    background-color: white;
-    /* height: 110pt; */
-    justify-content: space-between;
+    display: none;
+    visibility: hidden;
 }
 
 main {
@@ -128,8 +128,15 @@ li a {
     background-repeat: no-repeat;
 }
 
-button {
 
+
+.alignCenter {
+    align-items: center;
+}
+
+button {
+    padding: 16px;
+    text-transform: uppercase;
 }
 
 .button-outline {
@@ -139,7 +146,9 @@ button {
     text-decoration: none;
     text-align: center;
     border: 2px solid green;
-    padding: 0 10;
+    padding: 0 10px;
+    line-height: 40px;
+    min-width: 120px;
 }
 
 a {
@@ -166,11 +175,12 @@ a:active {
 }
 
 
-
+.flex {
+    display: flex;
+}
 
 .row {
     display: flex;
-
 }
 
 .col {
@@ -180,6 +190,7 @@ a:active {
     /* width:30%; */
 
 }
+
 
 
 .col-1 {width: 8.33%;}
@@ -200,14 +211,22 @@ a:active {
 
 
 
+@media only screen and (min-width: 600px) {
+    h1 {
+        color: yellow;
+    }
+    header {
+        background-color: white;
+        justify-content: space-between;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
+@media only screen and (min-width: 768px) {
+    h1 {
+        color: mediumblue;
+    }
+    header {
+        background-color: white;
+        justify-content: space-between;
+    }
+}
