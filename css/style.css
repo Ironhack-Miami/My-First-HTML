@@ -59,6 +59,11 @@ div {
     /* border: 1px red dotted; */
 }
 
+.alignCenter {
+    display: flex;
+    align-items: center;
+}
+
 footer {
     /* height: 850pt; */
     background-color: #EEE;
